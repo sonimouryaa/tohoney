@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<style>
+@media screen  and (min-width:320px) and (max-width:480px)  {
+.header{
+    flex-direction: row;
+    /* flex-direction: column; */
+
+}
+.head1{
+  margin-bottom:30px;
+   padding: 10px 0px;
+   
+    flex-direction:column;
+  
+}
+
+.head2 ul  li{
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  /* margin:  auto; */
+}
+.section1{
+    background-size: contain;
+}
+.section2{
+margin: 0px;
+padding: 0px;
+
+/* height: 100%;
+width: 100%; */
+}
+.imgsec2 img{
+    /* height: 100%;
+    width: 100%; */
+}
+.imgsec2{
+width: 330px;
+height:255px ;
+}
+
+
+
+
+}
+
+/* =========headdeer-========= */
+
+/* =============nav====================== */
+
+li{
+list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+a {
+        text-decoration: none;
+        color: black;
+      }
+      .header {
+        height: 55px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+      }
+
+      .btn1 {
+        background-color: yellowgreen;
+        color: white;
+        padding: 5px 20px;
+        border-radius: 5px;
+      }
+      .head1 {
+        height: 55px;
+        width: 100%;
+        background-color:white;
+      }
+      .head1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        border-bottom: 1px solid grey;
+      }
+      .head2 {
+        height: 50px;
+        width: 500px;
+        margin: 0px 30px;
+        text-align: center;
+        /* border: 1px solid red; */
+      }
+      .head3 {
+        height: 50px;
+        width: 500px;
+        margin: 0px 50px;
+/* padding: 0px 40px; */
+        text-align: center;
+        /* border: 1px solid red; */
+      }
+
+      .head2 li {
+        display: inline;
+        padding: 0px 10px;
+        font-family: "Poppins", sans-serif;
+        /* text-align: center; */
+      }
+
+      .head3 li {
+        display: inline;
+        padding: 0px 10px;
+        font-family: "Poppins", sans-serif;
+      }
+      .head3 li a:hover {
+        color: red;
+      }
+
+.nav-link i:hover{
+color: red;
+transition: 0.6s;
+
+}
+.material-symbols-outlined{ 
+font-size: 30px;
+margin: 0px 5px;
+color: rgb(47, 45, 45);
+font-weight: lighter;
+}
+.icon1:hover{
+  color: red;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+.firstnav{
+  background-color: white;
+  padding: 20px 0px;
+}
+
+.nev li{
+  padding: 0px 10px;
+}
+/* ========nav end============================== */
+.section1{
+width: 100%;
+height: 270px;
+background-image: url(http://themepresss.com/tf/html/tohoney/assets/images/bg/3.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.section1 h1{
+color: white;
+font-size: 30px;
+font-weight: bold;
+}
+.section1 p{
+color: white;
+
+}
+.section1 a{
+    color: white;
+}
+.section1 a:hover{
+    color: red;
+}
+/* ========sec2================ */
+.abc{
+    /* border: 1px solid rgb(211, 203, 203); */
+    margin: 15px 0px;
+}
+.section2 img{
+    height: 40px;
+    width: 230px;
+    padding: 5px 0px;
+}
+.section2{
+    margin: 20px 0px;
+    padding: 50px 0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.sec2{
+height: 610px;
+width:370px ;
+border: 1px solid rgb(191, 186, 186);
+border-top-left-radius:10px ;
+border-top-right-radius:10px ;
+
+}
+.imgsec2{
+width: 370px;
+height:255px ;
+/* border: 1px solid red; */
+/* border-top-left-radius:10px ;
+border-top-right-radius:10px ; */
+position: relative;
+}
+.imgsec2 img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius:10px ;
+border-top-right-radius:10px ;
+}
+
+.text2{
+width: 370px;
+height: 320px;
+/* border: 1px solid red; */
+padding: 15px 20px;
+}
+.text2 ul li {
+display: inline;
+padding: 5px 0px;
+margin: 10px 0px;
+font-size: 14px;
+ font-family: 'Poppins', sans-serif;
+}
+.text2  li i{
+    margin:0px 5px;
+}
+
+.text2 ul {
+    padding:0px 0px;
+}
+.text2  li a {
+    color: grey;
+
+}
+
+.text2 p{
+    font-size: 15px;
+ font-family: 'Poppins', sans-serif;
+margin: 20px 0px 0px;
+padding: 2px 0px;
+}
+.text2 a p{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+ font-family: 'Poppins', sans-serif;
+ margin-right:70px;
+ padding: 0px;
+ margin: 0px;
+
+}
+.text2 a :hover{
+    color: red;
+    transition: 0.6s;
+}
+
+.innertext{
+    height: 60px;
+    width: 50px;
+    background-color: white;
+border:none;
+position: absolute;
+top: 5%;
+left: 5%;
+outline: 2px solid #fff;
+    outline-offset: 3px;
+    
+}
+.innertext p{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    /* padding: 0px; */
+    margin: 2px;
+    padding: 0px;
+
+
+}
+.sec3{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 30px 0px;
+}
+.page-item{
+    padding: 2px;
+    /* height: 20px; */
+    /* font-size: 25px; */
+    /* color: red;
+    border: 1px solid red; */
+}
+.pagination{
+    /* border: 1px solid red; */
+
+}
+.page-link{
+    color: red;
+    border: 1px solid red;
+}
+.page-link:hover{
+    background-color: red;
+    color: white;
+}
+/* ==========================sec8============ */
+
+
+.section8{
+height: 100%;
+width: 100%;
+/* background-color: aqua; */
+}
+.sec81{
+height: 300px;
+/* border: 1px solid red; */
+background-color:rgb(39,42,45);
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.sec81 .inp1{
+padding: 6px 80px 6px 30px;
+height: 70px;
+width:50%;
+color:rgb(168, 161, 161);
+
+}
+.foot{
+border-radius: 30px;
+background-color:rgb(58,63,66) ;
+outline: none;
+border: none;
+}
+.input-group-text{
+  padding: 20px;
+  color:rgb(168, 161, 161);
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+background-color:rgb(58,63,66) ;
+border: none;
+}
+.sec81 h2{
+color: white;
+}
+.sec82{
+height: 150px;
+display: flex;
+background-color: rgb(34,37,40);
+align-items: center;
+/* border-bottom: 1px solid #a0a0a0 ; */
+justify-content: center;
+}
+.sec82 P{
+/* display: inline; */
+text-align: center;
+/* margin:0px 5px; */
+padding: 5px 0px;
+color: #a0a0a0;
+font-family: 'Poppins', sans-serif;
+border-bottom: 1px solid #a0a0a0 ;
+
+}
+.sec83{
+height: 250px;
+width:100% ;
+display:flex;
+flex-direction: row;
+justify-content:center;
+align-items: center;
+color: #a0a0a0;
+
+background-color:rgb(34,37,40) ;
+border: 1px solid red;
+}
+.main_item{
+background-color:rgb(34,37,40) ;
+
+}
+.item1 ul li {
+display: inline;
+padding: 20px 5px;
+}
+.item1  a{
+  padding: 5px;
+  font-size: 20px;
+color: #a0a0a0;
+
+}
+.item1  a:hover{
+  color: red;
+  transition: 0.6s;
+}
+a{
+  text-decoration: none;
+  /* color: none; */
+}
+.item{
+  height: 200px;
+  width:100%;
+/* border: 1px solid red; */
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px ;
+margin: 0px 20px;
+color: #a0a0a0;
+
+/* text-align: center; */
+border-right: 1px solid grey;
+}
+.item3  li:hover{
+color: red;
+transition: 0.6s;
+cursor: pointer;
+
+}
+ .item3 ul li{
+  display: inline;
+  list-style: none;
+color: #a0a0a0;
+  
+}
+.item4{
+border-right:none;
+color: #a0a0a0;
+
+}
+.item2 {
+ width: 250px; 
+ text-align: center;
+border-right: 1px solid grey;
+
+}
+.container-fluied{
+  background-color:rgb(34,37,40) ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+<body>
+    
+
+
+    <headder class="header">
+        <div class="head">
+          <a href="#">
+            <img
+              src="https://public-assets.envato-static.com/assets/logos/envato_market-dde916a48af7413e54aa058fe7ae6856752fca799da4bec355f00aea904bfa19.svg"
+              class="image-fluied"
+              style="height: 20px; width: 152px; margin: 5px 25px"
+            />
+          </a>
+        </div>
+        <div class="head"></div>
+        <a class="btn1 m-4">Buy Now</a>
+      </headder>
+      <div class="head1 ">
+        <div class="head2 ">
+          <ul>
+            <li>
+              <i class="fa fa-phone"></i>
+              +01 123 456 789
+            </li>
+            <li>
+              <i class="fa fa-envelope"> youremail@gmail.com</i>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="head3">
+          <ul>
+            <li style="border-right: 1px solid grey">
+              <a href="#"><i class="fa fa-user"></i> My Account</a>
+            </li>
+            <li style="border-right: 1px solid grey">
+              <a href="#">Login / Register</a>
+            </li>
+            <li><a href="#">USD</a></li>
+          </ul>
+        </div>
+      </div>
+  
+  
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light firstnav">
+        <div class="container ">
+          <a class="navbar-brand" href="index.html" target="_parent">
+            <img src="http://themepresss.com/tf/html/tohoney/assets/images/logo.png"class="image-fluied">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto nev">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" target="_blank">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html" target="_blank">Shop Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html" target="_blank">Product Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="wish.html" target="_blank">Wishlist</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" target="_blank">Contact Us</a>
+              </li>
+  
+              <li class="nav-item">
+                <i class="material-symbols-outlined icon1">
+                  search
+              </i>
+              </li>
+  
+              <li class="nav-item">
+                <i class="material-symbols-outlined icon1"  >
+                  favorite
+              <span class="position-absolute top-25 start-1 translate-middle p-1 bg-danger border border-light rounded-circle" style="font-size: 10px;color: white;">3
+              <span class="visually-hidden">New alerts</span>
+            </span></i></a>
+  
+              </li>
+  
+              <li class="nav-item">
+                <i class="material-symbols-outlined position-relative icon1">
+                  storefront
+                  <span class="position-absolute top-25 start-1 translate-middle p-1 bg-danger border border-light rounded-circle"style="font-size: 10px; color: white;">2
+                  <span class="visually-hidden">New alerts</span>
+                </span></i></a>
+              </li>
+        </div>
+        </div>
+        </nav>
+        <!-- <hr> -->
+      <div class="section1">
+<h1>BLOG PAGE</h1>
+<p><a href="index.html "target="_blank">Home </a>/ Blog </p>
+      </div>
+<div class="container">
+<div class="section2">
+    <h2>Latest News</h2>
+    <img src="http://themepresss.com/tf/html/tohoney/assets/images/section-title.png" class="image-fluied"></div>
+<div class="row row-cols-lg-4 row-cols-md-2 row-cols-1">
+<div class="col-lg-4 col-md-6 col-12 abc">
+<div class="sec2">
+<div class="box2 imgsec2">
+<img src="http://themepresss.com/tf/html/tohoney/assets/images/blog/1.jpg" class="image-fluied">
+<div class="innertext">
+<!-- <ul> -->
+    <p style="font-size: 20px;">20</p>
+    <p style="color: orange;">JANU</p>
+<!-- </ul> -->
+</div>
+</div>
+<div class="box2 text2">
+<ul>
+<li><a href="#"><i class="fa fa-user"></i>Admin</a></li>
+<li><a href="#"><i class="fa fa-heart"></i>Love</a></li>
+<li><a href="#"><i class="fa fa-comment"></i>15 Comments</a></li>
+</ul>
+
+<a href="#">
+   <p> British military courts use aginst protesters busines cultural...</p></a>
+ <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nulla veniam autem veritatis, adipisci officia? Tempora necessitatibus, iusto minima maxime ipsum quae dolore repellat quaerat.</p> 
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-12 abc">
+    <div class="sec2">
+        <div class="box2 imgsec2">
+        <img src="http://themepresss.com/tf/html/tohoney/assets/images/blog/2.jpg" class="image-fluied">
+        <div class="innertext">
+        <!-- <ul> -->
+            <p style="font-size: 20px;">20</p>
+            <p style="color: orange;">JANU</p>
+        <!-- </ul> -->
+        </div>
+        </div>
+        <div class="box2 text2">
+        <ul>
+        <li><a href="#"><i class="fa fa-user"></i>Admin</a></li>
+        <li><a href="#"><i class="fa fa-heart"></i>1 Love</a></li>
+        <li><a href="#"><i class="fa fa-comment"></i>12 Comments</a></li>
+        </ul>
+        
+        <a href="#">
+           <p> South korea’s moon jae in sworn vowing to address north...</p></a>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nulla veniam autem veritatis, adipisci officia? Tempora necessitatibus, iusto minima maxime ipsum quae dolore repellat quaerat.</p> 
+        </div>
+        </div>
+
+
+</div>
+<div class="col-lg-4 col-md-6 col-12 abc">
+    <div class="sec2">
+        <div class="box2 imgsec2">
+        <img src="http://themepresss.com/tf/html/tohoney/assets/images/blog/3.jpg"class="image-fluied">
+        <div class="innertext">
+        <!-- <ul> -->
+            <p style="font-size: 20px;">25</p>
+            <p style="color: orange;">JUN</p>
+        <!-- </ul> -->
+        </div>
+        </div>
+        <div class="box2 text2">
+        <ul>
+        <li><a href="#"><i class="fa fa-user"></i>Admin</a></li>
+        <li><a href="#"><i class="fa fa-heart"></i>5 Love</a></li>
+        <li><a href="#"><i class="fa fa-comment"></i>18 Comments</a></li>
+        </ul>
+        
+        <a href="#">
+           <p>Man looking at his note remember to daily tasks...</p></a>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nulla veniam autem veritatis, adipisci officia? Tempora necessitatibus, iusto minima maxime ipsum quae dolore repellat quaerat.</p> 
+        </div>
+        </div>
+
+</div>
+<div class="col-lg-4 col-md-6 col-12 abc">
+    <div class="sec2">
+        <div class="box2 imgsec2">
+        <img src="http://themepresss.com/tf/html/tohoney/assets/images/blog/8.jpg"class="image-fluied">
+        <div class="innertext">
+        <!-- <ul> -->
+            <p style="font-size: 20px;">15</p>
+            <p style="color: orange;">APRIL</p>
+        <!-- </ul> -->
+        </div>
+        </div>
+        <div class="box2 text2">
+        <ul>
+        <li><a href="#"><i class="fa fa-user"></i>Admin</a></li>
+        <li><a href="#"><i class="fa fa-heart"></i>15 Love</a></li>
+        <li><a href="#"><i class="fa fa-comment"></i>08 Comments</a></li>
+        </ul>
+        
+        <a href="#">
+           <p>Robots helped inspire and deep learning might become...</p></a>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nulla veniam autem veritatis, adipisci officia? Tempora necessitatibus, iusto minima maxime ipsum quae dolore repellat quaerat.</p> 
+        </div>
+        </div>
+
+</div>
+<div class="col-lg-4 col-md-6 col-12 abc">
+    <div class="sec2">
+        <div class="box2 imgsec2">
+        <img src="http://themepresss.com/tf/html/tohoney/assets/images/blog/9.jpg"class="image-fluied">
+        <div class="innertext">
+        <!-- <ul> -->
+            <p style="font-size: 20px;">25</p>
+            <p style="color: orange;">MAY</p>
+        <!-- </ul> -->
+        </div>
+        </div>
+        <div class="box2 text2">
+        <ul>
+        <li><a href="#"><i class="fa fa-user"></i>Admin</a></li>
+        <li><a href="#"><i class="fa fa-heart"></i>5 Love</a></li>
+        <li><a href="#"><i class="fa fa-comment"></i>30 Comments</a></li>
+        </ul>
+        
+        <a href="#">
+           <p> Defying the traditional and mainstream parties...</p></a>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nulla veniam autem veritatis, adipisci officia? Tempora necessitatibus, iusto minima maxime ipsum quae dolore repellat quaerat.</p> 
+        </div>
+        </div>
+
+
+</div>
+<div class="col-lg-4 col-md-6 col-12 abc">
+    <div class="sec2">
+        <div class="box2 imgsec2">
+        <img src="http://themepresss.com/tf/html/tohoney/assets/images/blog/12.jpg"class="image-fluied">
+        <div class="innertext">
+        <!-- <ul> -->
+            <p style="font-size: 20px;">01</p>
+            <p style="color: orange;">FEB</p>
+        <!-- </ul> -->
+        </div>
+        </div>
+        <div class="box2 text2">
+        <ul>
+        <li><a href="#"><i class="fa fa-user"></i>Admin</a></li>
+        <li><a href="#"><i class="fa fa-heart"></i>16 Love</a></li>
+        <li><a href="#"><i class="fa fa-comment"></i>8 Comments</a></li>
+        </ul>
+        
+        <a href="#">
+           <p>Packing macron anddis insted about vote against chat...</p></a>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nulla veniam autem veritatis, adipisci officia? Tempora necessitatibus, iusto minima maxime ipsum quae dolore repellat quaerat.</p> 
+        </div>
+        </div>
+
+
+</div>
+</div>
+<div class="sec3">
+<nav aria-label="Page navigation example ">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+</div>
+</div>
+
+<div class="section8">
+    <div class="sec81">
+      <h2>Subscribe Newsletter</h2>
+      <div class="input-group flex-nowrap inp1">
+        <input type="text" class="form-control foot" placeholder="Enter Your Email Address..." aria-label="Username" aria-describedby="addon-wrapping">
+        <span class="input-group-text" id="addon-wrapping">
+           <i class="fa fa-send"></i>
+    
+        </span>
+    
+      </div>
+    </div>
+    <div class="sec82" style="color: antiquewhite;">
+     <p>HOME  /   OUR STORY  /    FEED SHOP  /    HOW TO EAT  /   BLOG  /    CONTACT</p>
+    
+    </div>
+    <div class="container-fluied">
+        <div class="container">
+            <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 main_item">
+        <div class="col">
+          <div class="item item1">
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               </ul>
+    
+          </div>
+        </div>
+        <div class="col">
+          <div class="item item2">
+            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure righteous indignation and dislike</p>
+    
+    
+          </div>
+        </div>
+        <div class="col">
+          <div class="item item3">
+            <ul>
+              <ul>Email
+              <li> : domain@gmail.com</li></ul>
+               <ul> Tel
+                
+              <li>: 0131234567</li></ul>
+               <ul>Adress
+               <li> : 52 Web Bangale , Adress line2 , ip:3105</li>
+              </ul>
+            </div>
+        </div>
+        <div class="col">
+          <div class="item item4">
+    <p>Copyright © 2019 Tohoney All rights reserved.</p>
+    </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- </div> -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
